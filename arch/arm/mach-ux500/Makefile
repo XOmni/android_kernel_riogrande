@@ -80,7 +80,7 @@ obj-$(CONFIG_UIB) 		+= board-common-uib.o \
 
 obj-$(CONFIG_ANDROID_STE_TIMED_VIBRA)	+= board-mop500-vibra.o
 obj-$(CONFIG_MCDE)		+= board-mcde.o
-obj-$(CONFIG_U8500_MMIO)	+= board-mop500-mmio.o board-mop500-mmio_raw.o board-mop500-mmio_yuv.o
+#obj-$(CONFIG_U8500_MMIO)	+= board-mop500-mmio.o board-mop500-mmio_raw.o board-mop500-mmio_yuv.o
 obj-$(CONFIG_SMP)		+= platsmp.o headsmp.o
 obj-$(CONFIG_HOTPLUG_CPU)	+= hotplug.o
 obj-$(CONFIG_TEE_UX500)        	+= tee_ux500.o product.o
